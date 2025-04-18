@@ -1,0 +1,32 @@
+{
+  "root": "80ee5b46-3ce4-4826-8a97-bbb594b53e33",
+  "top": [
+    "96cbb67a-5c64-4d6a-b329-61a4c2aa85cc"
+  ],
+  "current": "dbc2ac0d-ca57-4b6e-a6d5-41ecaf82e7f5",
+  "create_time": 1732676182036,
+  "update_time": 1732676333950,
+  "advanceSettings": {
+    "systemPrompt": "You are a helpful assistant."
+  },
+  "entries": {
+    "96cbb67a-5c64-4d6a-b329-61a4c2aa85cc": {
+      "id": "96cbb67a-5c64-4d6a-b329-61a4c2aa85cc",
+      "role": "user",
+      "message": "hii",
+      "images": [],
+      "parent": "",
+      "children": [
+        "dbc2ac0d-ca57-4b6e-a6d5-41ecaf82e7f5"
+      ]
+    },
+    "dbc2ac0d-ca57-4b6e-a6d5-41ecaf82e7f5": {
+      "id": "dbc2ac0d-ca57-4b6e-a6d5-41ecaf82e7f5",
+      "role": "AI",
+      "message": "Hello! How can I help you today?\n",
+      "modelName": "gemini-1.5-flash",
+      "parent": "96cbb67a-5c64-4d6a-b329-61a4c2aa85cc",
+      "children": []
+    }
+  }
+}
